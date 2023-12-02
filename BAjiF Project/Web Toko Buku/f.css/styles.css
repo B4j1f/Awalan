@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111111;
+    font-family: 'Montserrat';
+}
+
+/* header */
+.logo{
+    color: yellow;
+    text-decoration: none;
+    display: flex;
+    font-size: 30px;
+
+}
+
+.navbar{
+    max-width: 1200px;
+    padding: 2rem 1rem;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.ul-navbar{
+list-style: none;
+display: flex;
+align-items: center;
+gap: 3rem;
+}
+
+.ul-navbar > li > a{
+    text-decoration: none;
+    color: yellow;
+}
+.btn-position{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+    background-color: yellow;
+    transition: all .2s ease-in-out;
+}
+.btn-sign-up{
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-sign-up:hover{
+    transition: all .2s ease-in-out;
+    color: yellow;
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgba(255, 255, 0, 0.568);
+    box-shadow: 0px 0px 5px 5px rgb(255, 255, 255)
+}
+.ul-navbar > li > a:hover{
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+.logo:hover{
+    color: white;
+    transition: all .2s ease-in-out;
+}
+/* header */
